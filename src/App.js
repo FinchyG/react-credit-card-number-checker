@@ -19,8 +19,6 @@ const App = () => {
     const checkCreditCardNumber = (event) => {
       event.preventDefault();
       // handle search logic here
-      console.log(`Searching for ${creditCardNumber}...`);
-      console.log(`${creditCardNumber}`);
       if (validator.isCreditCard(`${creditCardNumber}`)) {
         setErrorMessage('Valid credit card number');
         setErrorMessageColour('black');
