@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import validator from 'validator'
 
 // component imports
-import H2Header from './components/H2Header';
+import H2Heading from './components/H2Heading';
 import TextInput from './components/TextInput';
 import CheckButton from './components/CheckButton';
 
@@ -30,7 +30,7 @@ const App = () => {
   
   return (
     <div>
-      <H2Header textContent="Check Credit Card Number" />
+      <H2Heading textContent="Check Credit Card Number" />
       <TextInput 
         placeholder="type credit card number..." 
         name="CCNumInp"
